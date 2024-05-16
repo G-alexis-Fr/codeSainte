@@ -1,0 +1,29 @@
+body {
+  background: white; /* Make it white if you need */
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:  "Fira Code", monospace, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+p {
+  margin: 20px auto 0 20%;
+}
